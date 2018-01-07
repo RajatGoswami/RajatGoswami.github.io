@@ -17,7 +17,7 @@ h2 {
 
 /* Home Page */
 
-#home {
+body {
     background-color: #EDFFFB;
 }
 
@@ -38,8 +38,8 @@ h2 {
 }
 
 #bear-gif {
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 55%;
+    max-height: 55%;
     display: block;
     margin: 2% auto 0 auto;
 }

@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+$(document).ready(function() {
     let currentDate = new Date();
 	let hours = currentDate.getHours();
 	if(hours > 22 || hours < 8) { 
