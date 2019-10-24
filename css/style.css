@@ -45,16 +45,17 @@ body {
 }
 
 #social-media {
-    width: 800px;
-    margin: 50px auto;
+    position: absolute;
+    top: 15px;
+    right: 0px;
 }
 
 .social-icon {
     display: inline-block;
-    width: 33%;
     text-align: center;
 }
 
 .social-icon i {
-    font-size: 100px;
+    font-size: 60px;
+    margin: 0 20px 20px 0;
 }
