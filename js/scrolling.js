@@ -4,10 +4,11 @@ $(document).ready(function(){
 		if (this.hash !== "") {
 			e.preventDefault();
 
+			let hash = this.hash;
 			$('html, body').animate({
 				scrollTop: $(this.hash).offset().top
 			}, 800, function(){
-				window.location.hash = this.hash;
+				window.location.hash = hash;
 			});
 		}
 	});
