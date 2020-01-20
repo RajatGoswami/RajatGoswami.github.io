@@ -1,60 +1,107 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Roboto', serif;
+    font-weight: normal;
+    color: #393834;
+}
+
 section {
-    width: 100vw;
     height: 100vh;
-    border: 1px solid black;
 }
 
 h1 {
-    font-family: 'Francois One', sans-serif;
+    color: #4C2424; 
+    font-weight: normal;
+    font-size: 40px; 
 }
 
 h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 25px;
+    color: #bf3837;
     font-weight: normal;
+    font-size: 35px; 
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+li {
+    list-style-type: none;
+}
+
+.section-title {
+    padding-top: 40px;
     text-align: center;
 }
 
-/* Home Page */
+i {
+    width: 25px;
+    height: 25px;
+    border: solid #4C2424;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
 
-body {
-    background-color: #EDFFFB;
 }
 
-#profile-img {
-    width: auto;
-    height: auto;
-    max-width: 200px;
-    max-height: 200px;
-    display: block;
-    margin: 2% auto 50px auto;
+.arrow {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.scroll {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Title Section */
+
+#title-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../images/Bears.jpg');
+    background-size: cover;
+    background-position: center;
+
 }
 
 #my-name {
-    font-size: 70px;
-    font-weight: 500px;
+    font-weight: bold;
+    font-size: 70px; 
+    margin: -65px 0 0 0;
+    color: #C0BFC5;
+}
+
+#vocation {
     text-align: center;
-    margin: 0;
+    color:#C0BFC5;
 }
 
-#bear-gif {
-    max-width: 55%;
-    max-height: 55%;
-    display: block;
-    margin: 2% auto 0 auto;
+#resume-link {
+    text-decoration: none;
+    color: #2083C9;
+    border-radius: 20px;
+    border: 2px solid #2083C9;
+    padding: 12px;
 }
 
-#social-media {
-    width: 800px;
-    margin: 50px auto;
+/* Education Section */
+
+#education-content {
+    width: 80%;
+    margin: 0 auto;
 }
 
-.social-icon {
-    display: inline-block;
-    width: 33%;
-    text-align: center;
-}
+/* Work Section */
 
-.social-icon i {
-    font-size: 100px;
+.work-content {
+    width: 80%;
+    margin: 0 auto;
 }

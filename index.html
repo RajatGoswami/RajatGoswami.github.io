@@ -5,31 +5,74 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="Rajat Goswami's Personal Profile" />
 		<meta name="keywords" content="Software, Developer, University, Waterloo, student, Computer, Science, Business, Administration" />
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="https://use.fontawesome.com/4bfd7660e9.js"></script>
-        <script src="js/change-gif.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+        <script src="js/scrolling.js"></script>
         <link href="css/style.css" rel="stylesheet">
 	</head>
 	<body>
-        <img id="profile-img" src="images/Rajat%20Goswami%20Profile%20Picture.png"/>
-        <h1 id="my-name">Rajat Goswami</h1>
-        <h2>Software Developer &bull; Montreal, CA</h2>
-        
-        <img id="bear-gif" src="images/Surf.gif"/>
+        <section id="title-section">            
+            <div>
+                <h1 id="my-name"><span style="color:#C0BFC5">My name is</span> Rajat Goswami.</h1>
+                <h2 id="vocation">Software Developer &bull; Montr&eacute;al, CA</h2>
+                
+                <div class="scroll">
+                    <a href="#education"><i class="arrow" style="border-color:#C0BFC5"></i></a>
+                </div>
+                <!--<h2><a id="resume-link" href="pdfs/Rajat Goswami Resume.pdf">Resum&eacute;</a></h2>-->
+            </div>
+        </section>
+        <section id="education">
+            <h1 class="section-title">Education</h1>
+            <div id="education-content">
+                <h2>Computer Science</h2>
+                <p>I enrolled in the Computer Science program at the University of Waterloo because I believed a
+                    problem-solving mindset and the technical ability to build on my ideas would serve me well in whichever
+                    industry I ended up in. That belief holds true today. What I didn't expect was the anxiety and isolation
+                    associated with an environment that places too much value on academic performance and employment status.
+                    Similary, the technology industry too often overlooks the unforeseen consequences of their products
+                    in favour of user growth and profit. I'd like my work as a software developer to support the argument that,
+                    despite these pitfalls, technology can be a force for good. 
+                    </p>
+                    <p>Follow me on <a href="https://github.com/RajatGoswami">Github</a>.</p>
 
-        <!-- <div id="social-media">
-            <div class="social-icon">
-                <a href="https://github.com/RajatGoswami"><i class="fa fa-github fa-5x" aria-hidden="true" style="color:#FF3B00"></i></a>
+                <br/><h2>Business Administration & Finance</h2>
+                <p>Access to quality education, a better standard of living and a general sense of belonging in modern
+                    society is heavily dependant on how much money we have access to. Business school provided me with a basic
+                    understanding of how wealth is collected, grown and transferred but falls short in educating students on how
+                    inequally it's often distributed. I hope to provide people with the resources to achieve a well-rounded
+                    understanding of finance and the skills to exercise more control over their economic well-being.
+                </p>
+                <p>Access to <a href="">learning resources</a>.</p>
+                <div class="scroll">
+                    <a href="#work"><i class="arrow"></i></a>
+                </div>
             </div>
-            <div class="social-icon">
-                <a href="pdfs/Rajat%20Goswami%20Resume.pdf"><i class="fa fa-file-text fa-4x social-icon" aria-hidden="true" style="color:#147DCC"></i></a>
+        </section>
+        <section id="work">
+            <div>
+                <h1 class="section-title">My Work</h1>
+                <div class="work-content">
+                    <h2>Part-Time</h2>
+                    <p> I currently work as a contract developer with <a href="www.epochapp.com">Epoch</a>. Epoch is a platform that helps companies get involved in volunteer opportunities in their communities.</p>
+                    
+                    <h2>Volunteering</h2>
+                    <p>I am the IT Operations Manager for <a href="http://onetrackinternational.org/">ONETrack International</a>. This non-profit organization works to relocate oprhans to the households of biological familly members
+                        and provide them with education and health care resources.</p>
+                </div>
             </div>
-            <div class="social-icon">
-                <a href="https://ca.linkedin.com/in/rajat-goswami-24639362"><i class="fa fa-linkedin-square fa-5x social-icon" aria-hidden="true" style="color:#09D165"></i></a>
+        </section>
+        <!--<section id="projects">
+            <div>
+                <h1 class="section-title">My Projects</h1>
+                <div class="work-content">
+                    <h2>Writing</h2>
+                    <p>A Heart Kept Beating</p>
+                    
+                    <h2>Software Projects</h2>
+                    <p>Raytracing: How to Generate 3D Images</p>
+                </div>
             </div>
-        </div> -->
+        </section>-->
 	</body>
 </html>
