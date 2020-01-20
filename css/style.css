@@ -94,14 +94,6 @@ i {
     color:#C0BFC5;
 }
 
-#resume-link {
-    text-decoration: none;
-    color: #2083C9;
-    border-radius: 20px;
-    border: 2px solid #2083C9;
-    padding: 12px;
-}
-
 /* Education Section */
 
 #education-content {
@@ -115,6 +107,7 @@ i {
     width: 80%;
     margin: 0 auto;
     display: flex;
+    margin-top: 4%;
 }
 
 .card {
@@ -138,4 +131,15 @@ i {
     display: block;
     margin: 40px auto 40px auto;
     width: 50%;
+}
+
+#resume {
+    margin-top: 4%;
+}
+
+#resume a {
+    color: #4C2424;
+    border-radius: 3px;
+    border: 2px solid #4C2424;
+    padding: 12px;
 }
