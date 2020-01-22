@@ -5,7 +5,7 @@ $(document).ready(function(){
 			e.preventDefault();
 
 			let hash = this.hash;
-			$('html, body').animate({
+			$('html').animate({
 				scrollTop: $(this.hash).offset().top
 			}, 800, function(){
 				window.location.hash = hash;
