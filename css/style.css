@@ -32,7 +32,7 @@ h3 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.5;
 }
 
@@ -45,7 +45,7 @@ a {
 }
 
 .section-title {
-    padding-top: 40px;
+    padding-top: 20px;
     text-align: center;
 }
 
@@ -56,7 +56,6 @@ i {
     border-width: 0 2px 2px 0;
     display: inline-block;
     padding: 3px;
-
 }
 
 .arrow {
@@ -84,7 +83,7 @@ i {
 #my-name {
     font-weight: bold;
     font-size: 70px; 
-    margin: -65px 0 0 0;
+    margin: -30px 0 0 0;
     color: #C0BFC5;
 }
 
@@ -106,7 +105,8 @@ i {
     width: 80%;
     margin: 0 auto;
     display: flex;
-    margin-top: 4%;
+    margin-top: 5px;
+    text-align: center;
 }
 
 .card {
@@ -120,10 +120,6 @@ i {
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-
-.card h2, h3 {
-    text-align: center;
 }
 
 .card img {
@@ -133,7 +129,7 @@ i {
 }
 
 #resume {
-    margin-top: 4%;
+    text-align: center;
 }
 
 #resume a {
